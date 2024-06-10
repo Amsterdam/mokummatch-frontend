@@ -1,4 +1,4 @@
-FROM node:16-alpine AS development
+FROM node:20-alpine AS development
 # Args
 ARG PROJECT_NAME="armen-ineen"
 ARG WORKDIR_PATH="/app"
