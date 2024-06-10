@@ -2,7 +2,6 @@
 // import * as ReactDOMServer from 'react-dom/server';
 import { useTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
-import { Typography } from '@mui/material';
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import L from 'leaflet';

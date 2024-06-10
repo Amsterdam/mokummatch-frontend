@@ -1,6 +1,5 @@
-import { IGeneral } from './../../commonInterfaces/instances';
-import { IInstance, ISocialLinkData } from "@/commonInterfaces/instances";
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { ISocialLinkData } from "@/commonInterfaces/instances";
+import { createSlice } from "@reduxjs/toolkit";
 import instancesData from "@/data/instances/instances.json";
 
 import { RootState } from "../store";

@@ -15,7 +15,7 @@ const ProfileCard = ({ profile }: { profile: IInstanceProfile }) => {
 
   const {
     name = 'Name',
-    gender = 'male',
+    // gender = 'male',
     description = 'description',
     biography = `This is a small biography section to describe \n
                  what this person or organisation does.`,

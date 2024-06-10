@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Page from "..";
-import * as instances from "@/data/instances/instances.json";
 import { useAppDispatch } from "@/redux/hooks";
 import Grid from "@mui/material/Grid";
 import SocialListsSection from "@/sections/Socials/SocialListsSection";
