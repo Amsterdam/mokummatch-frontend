@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "type": "person",
+    "description": "",
+    "biography": "",
+    "general": {
+      "name": "",
+      "age": 0,
+      "address": {
+        "street": "",
+        "zip": "",
+        "city": ""
+      },
+      "phone": {
+        "primary": ""
+      },
+      "email": "<email>",
+      "profile_picture": "<url>",
+      "gender": "<important! for the algo>",
+      "coordinates": [
+        50,
+        4.9
+      ]
+    },
+    "socials": {
+      "whatsapp": null,
+      "facebook": null,
+      "instagram": null,
+      "twitter": null
+    },
+    "questions": [
+      0,
+      3,
+      2,
+      1,
+      0,
+      1,
+      3
+    ]
+  }
+]

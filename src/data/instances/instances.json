@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "type": "person",
+    "description": "Vrouw, Buurvrouw",
+    "biography": "Je mag elke dag vrijdagochtend bij mij terecht in de Vogelkade 23. Ik heb zelf ervaring met hoe het is om met veel schulden te leven als alleenstaande moeder, graag help ik je hiermee.",
+    "general": {
+      "name": "Maria",
+      "age": 37,
+      "address": {
+        "street": "",
+        "zip": "",
+        "city": ""
+      },
+      "phone": {
+        "primary": ""
+      },
+      "email": "<email>",
+      "profile_picture": "/example/example_face1.png",
+      "gender": "female",
+      "coordinates": [
+        52.38711576272868,
+        4.926869873534175
+      ]
+    },
+    "socials": {
+      "whatsapp": "https://www.whatsapp.com/",
+      "facebook": "https://nl-nl.facebook.com/",
+      "instagram": "",
+      "twitter": "https://twitter.com/?lang=en"
+    },
+    "questions": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": 2,
+    "type": "person",
+    "description": "Man, Buurtteam Vogelbuurt",
+    "biography": "Elke maandag en woensdag kan je mij in het buurthuis vinden in Oud Noord. Je kan bij mij terecht als je iemand nodig hebt die goed kan luisteren.",
+    "general": {
+      "name": "Luciën",
+      "age": 0,
+      "address": {
+        "street": "",
+        "zip": "",
+        "city": ""
+      },
+      "phone": {
+        "primary": ""
+      },
+      "email": "<email>",
+      "profile_picture": "/example/example_face2.png",
+      "gender": "male",
+      "coordinates": [
+        52.3899205926474,
+        4.916922447279862
+      ]
+    },
+    "socials": {
+      "whatsapp": "https://www.whatsapp.com/",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/?hl=en",
+      "twitter": "https://twitter.com/?lang=en"
+    },
+    "questions": [
+      0,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 3,
+    "type": "wijkteam",
+    "description": "Vrouw, Professioneel adviseur",
+    "biography": "Bij Bedrijfsnaam vinden wij dat iedereen recht heeft op kwaliteit van het leven. Daarom help ik je graag met je schulden, zodat dit geen hoofdpijdossier meer voor jou hoeft te zijn.",
+    "general": {
+      "name": "Asiye",
+      "age": 0,
+      "address": {
+        "street": "",
+        "zip": "",
+        "city": ""
+      },
+      "phone": {
+        "primary": ""
+      },
+      "email": "<email>",
+      "profile_picture": "/example/example_face3.png",
+      "gender": "neutral",
+      "coordinates": [
+        52.38727449207796,
+        4.920704925880203
+      ]
+    },
+    "socials": {
+      "whatsapp": "https://reactjs.org/",
+      "facebook": "https://nl-nl.facebook.com/",
+      "instagram": null,
+      "twitter": "https://twitter.com/?lang=en"
+    },
+    "questions": [
+      1,
+      1,
+      2,
+      1,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "id": 4,
+    "type": "person",
+    "description": "Vrouw, Buurthuis",
+    "biography": "Bij mij kan je gelijk aan de slag. Ik help je graag met het openen van brieven en contact opnemen met andere instanties. Je kan mij elke dinsdag vinden bij het leefkringhuis. Kom gezellig langs!",
+    "general": {
+      "name": "Sandra",
+      "age": 41,
+      "address": {
+        "street": "Motorwal 300",
+        "zip": "1021PH",
+        "city": "Amsterdam"
+      },
+      "phone": {
+        "primary": ""
+      },
+      "email": "<email>",
+      "profile_picture": "https://images.unsplash.com/photo-1519975258993-60b42d1c2ee2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+      "gender": "female",
+      "coordinates": [
+        52.384396,
+        4.917757
+      ]
+    },
+    "socials": {
+      "whatsapp": "my_whatsapp_url",
+      "facebook": null,
+      "instagram": null,
+      "twitter": null
+    },
+    "questions": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": 5,
+    "type": "person",
+    "description": "Man, Buurman",
+    "biography": "Bij mij mag je langskomen als je gewoon lekker wilt praten. Is er iets wat je dwars zit? Of wil je gewoon je ei kwijt? Mijn deur staat altijd voor je open.",
+    "general": {
+      "name": "Youssef",
+      "age": 51,
+      "address": {
+        "street": "",
+        "zip": "",
+        "city": ""
+      },
+      "phone": {
+        "primary": ""
+      },
+      "email": "<email>",
+      "profile_picture": "<url>",
+      "gender": "male",
+      "coordinates": [
+        52.384795,
+        4.913575
+      ]
+    },
+    "socials": {
+      "whatsapp": "my_whatsapp_url",
+      "facebook": null,
+      "instagram": null,
+      "twitter": null
+    },
+    "questions": [
+      1,
+      0,
+      2,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 6,
+    "type": "person",
+    "description": "Man, Leefkringhuis",
+    "biography": "Ik help je graag om je eerste stap te zetten. Dit doe ik door samen met jou te zitten en alles heen te lopen wat doorgelopen moet worden. Ik ga jou wel vragen om wat gegevens met mij te delen, zodat ik jou optimaal kan helpen.",
+    "general": {
+      "name": "Max",
+      "age": 37,
+      "address": {
+        "street": "",
+        "zip": "",
+        "city": ""
+      },
+      "phone": {
+        "primary": ""
+      },
+      "email": "<email>",
+      "profile_picture": "<url>",
+      "gender": "male",
+      "coordinates": [
+        52.38499562970114,
+        4.9193249718203935
+      ]
+    },
+    "socials": {
+      "whatsapp": "my_whatsapp_url",
+      "facebook": null,
+      "instagram": null,
+      "twitter": null
+    },
+    "questions": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      3
+    ]
+  },
+  {
+    "id": 7,
+    "type": "person",
+    "description": "Vrouw, Buurvrouw",
+    "biography": "Ik wil jou graag helpen om de eerste stappen te zetten met voldoende informatie. Mijn partner en ik hebben zelf in schulden geleefd, dus wij willen onze kennis graag met jou delen. Ook horen we graag jouw verhaal, dus als je lekker voor een kop koffie wilt langskomen, dan mag dat ook!",
+    "general": {
+      "name": "Karolien",
+      "age": 62,
+      "address": {
+        "street": "",
+        "zip": "",
+        "city": ""
+      },
+      "phone": {
+        "primary": ""
+      },
+      "email": "<email>",
+      "profile_picture": "<url>",
+      "gender": "female",
+      "coordinates": [
+        52.38514689095636,
+        4.915792976106596
+      ]
+    },
+    "socials": {
+      "whatsapp": "my_whatsapp_url",
+      "facebook": null,
+      "instagram": null,
+      "twitter": null
+    },
+    "questions": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "id": 8,
+    "type": "person",
+    "description": "Man, Consultant",
+    "biography": "Als consultant geef ik je advies over hoe jij het beste de eerste stap kan zetten. Dit doe ik door eerst met je in gesprek te gaan over jouw huidige situatie en vervolgens een rapport op te stellen.",
+    "general": {
+      "name": "Jurvinio",
+      "age": 29,
+      "address": {
+        "street": "",
+        "zip": "",
+        "city": ""
+      },
+      "phone": {
+        "primary": ""
+      },
+      "email": "<email>",
+      "profile_picture": "<url>",
+      "gender": "male",
+      "coordinates": [
+        52.393448,
+        4.880211
+      ]
+    },
+    "socials": {
+      "whatsapp": "my_whatsapp_url",
+      "facebook": null,
+      "instagram": null,
+      "twitter": null
+    },
+    "questions": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
+  }
+]

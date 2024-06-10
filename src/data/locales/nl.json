@@ -1,0 +1,95 @@
+{
+  "translation": {
+    "language": "nl",
+    "test": "dit is nederlands",
+    "pages": {
+      "navbar": {
+        "title": "Mokummatch",
+        "about": "Over",
+        "socials": "Aangesloten Mokummers",
+        "ideabox": "Ideeënbak",
+        "navButton": "Probeer de Mokummatch",
+        "question": "Vraag"
+      },
+      "footer": {
+        "text1": "Mokummatch",
+        "text2": "Privacy",
+        "text3": "Algemene voorwaarden"
+      },
+      "ideabox": {
+        "header": "Heb jij een idee hoe wij de Mokummatch kunnen verbeteren?",
+        "subHeader": "Laat jouw idee achter door het onderstaand formulier in te vullen.",
+        "ideaboxHeader": "Laat hier jouw idee achter",
+        "ideaboxSubHeader": "Mijn idee is:",
+        "ideaboxSendButton": "Stuur idee op",
+        "defaultTextValue": "Beschrijf jouw idee..."
+      },
+      "socials": {
+        "header": "De aangesloten Mokummers",
+        "subHeader": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius facilisis duis egestas metus, arcu. Varius pharetra posuere sit morbi neque odio."
+      },
+      "startmokummatch": {
+        "header": "Welkom bij de Mokummatch",
+        "firstdescSection": "Mokummatch koppelt Amsterdammers, levend in schulden of armoede op basis van hun eigen wens en/of voorkeur aan iemand die hen kan bijstaan in het zetten van een stap richting een oplossing.",
+        "secondDescSectionPart1": "Als je moeite hebt met lezen,",
+        "secondDescSectionPart2": "klik dan op het",
+        "secondDescSectionPart3": "of ga naar het huis van ",
+        "secondDescSectionPart4": "de wijk of het buurtteam.",
+        "secondDescSection": "Als je moeite hebt met lezen, klik dan op het luidspreekertje of ga naar het huis van de wijk of het buurtteam.",
+        "buttonText": "Start de Mokummatch",
+        "linkText": "Lees meer",
+        "notes": "Bij een levensbedreigende of gezondheidsbedreigende situatie bel dan altijd 112!"
+      },
+      "about": {
+        "header": "De Mokummatch, jouw beginpunt voor een leven zonder zorgen",
+        "subHeader": "Ontwikkeld in co-creatie met bewoners, sleutelfiguren en professionals om armoede en schulden terug te dringen.",
+        "btnText": "Probeer de Mokummatch",
+        "notes": "Je hebt GEEN account nodig",
+        "title": "Aangesloten Mokummers",
+        "imgParagraph": {
+          "header": "Mokummatch",
+          "description": "Dergelijke initiatieven hebben ons geïnspireerd bij het uitdenken van dit plan. Informele netwerken in de buurt vormen de basis bij een aanpak die gericht is op een leven met minder zorgen en het terugdringen van armoede en schulden bij bewoners in de IJplein/Vogelbuurt. Ons doel is simpel: Over vier jaar is de Vogelbuurt/IJplein schulden vrij."
+        },
+        "info": {
+          "header1": "Een sterkere buurt",
+          "description1": "Door krachtige sleutelfiguren en een netwerk van informele structuren in te zetten, willen wij de zelfredzaamheid en samenredzaamheid van de buurt versterken. Tekstje nog iets langer maken, zodat deze sectie net zo hoog is als de rest.",
+          "header2": "Een aanpak op maat",
+          "description2": "In 2020 willen we voor minimaal 50 bewoners uit de Vogelbuurt/IJplein met langdurige schulden die tot nu toe niet werden bereikt een maatwerkplan maken en een traject ingang zetten om uit de schulden te komen.",
+          "header3": "Een lerende community",
+          "description3": "Samen met bewoners, professionals (Noordse aanpak) en onderzoekers ontwikkelen we een nieuwe manier van samenwerken in de buurt om het ontstaan van schulden te voorkomen, zo vroeg mogelijk te signaleren en aan te pakken."
+        },
+        "imgParagraphReverse": {
+          "header": "Iedereen heeft recht op een hoofdpijnloos leven",
+          "description": "Dergelijke initiatieven hebben ons geïnspireerd bij het uitdenken van dit plan. Informele netwerken in de buurt vormen de basis bij een aanpak die gericht is op een leven met minder zorgen en het terugdringen van armoede en schulden bij bewoners in de IJplein/Vogelbuurt. Ons doel is simpel: Over vier jaar is de Vogelbuurt/IJplein schulden vrij."
+        },
+        "carousal": {
+          "title": "Hoe werkt de Mokummatch"
+        },
+        "questionDescSection": {
+          "header": "Beantwoord 7 vragen",
+          "description": "Dit doe je door middel van “Eens”, “Geen van beide” en “Oneens” te kiezen. Elke vraag die je beantwoord, helpt met het kiezen van een optimale adviseur."
+        },
+        "sectionAboveFooter": {
+          "header": "Probeer het vandaag nog, je hebt geen account nodig.",
+          "btnText": "Probeer de Mokummatch"
+        }
+      },
+      "topthree": {
+        "header": "Jouw Top 3",
+        "description": "Aan de hand van jouw keuzes is de volgende top 3 gemaakt.",
+        "notfound": "Zit jouw match hier niet bij? Ga dan naar het inloopuur bij de wijk of het buurtteam."
+      }
+    },
+    "questions": {
+      "general": {
+        "skip": "Vraag overslaan",
+        "back": "Terug naar vorige vraag"
+      },
+      "options": {
+        "agree": "Eens",
+        "disagree": "Oneens",
+        "neutral": "Geen van beide"
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+parameters:
+  - name: dtapName
+    type: string
+  - name: serviceConnection
+    type: string
+  - name: resourceGroup
+    type: string
+  - name: kubernetesCluster
+    type: string
+
+jobs:
+  - job: Build
+    variables:
+      ${{ if eq(variables['Build.sourceBranchName'], 'master') }}:
+        tag: "latest"
+      ${{ else}}:
+        tag: "develop"
+        
+    steps:
+      - task: Docker@2
+        displayName: Build
+        inputs:
+          command: build
+          containerRegistry: rnd-container-registry
+          repository: $(solutionName)
+          arguments: --build-arg PORT=8003
+          tags: |
+            $(Build.BuildId)
+            $(tag)
+
+      - task: Docker@2
+        displayName: Push
+        inputs:
+          command: push
+          containerRegistry: rnd-container-registry
+          repository: $(solutionName)
+          tags: |
+            $(Build.BuildId)
+            $(tag)
+
+      - task: Kubernetes@1
+        displayName: "Update image Webapp"
+        inputs:
+          connectionType: 'Azure Resource Manager'
+          azureSubscriptionEndpoint: ${{ parameters.serviceConnection }}
+          azureResourceGroup: ${{ parameters.resourceGroup }}
+          kubernetesCluster: ${{ parameters.kubernetesCluster }}
+          useClusterAdmin: true
+          command: set
+          arguments: image deployment webapp mokummatch-webapp=rndweuacrohdelksmqjidj2.azurecr.io/$(solutionName):$(Build.BuildId) --namespace=mokummatch
+
+      - task: Kubernetes@1
+        displayName: "Rollout Webapp"
+        inputs:
+          connectionType: 'Azure Resource Manager'
+          azureSubscriptionEndpoint: ${{ parameters.serviceConnection }}
+          azureResourceGroup: ${{ parameters.resourceGroup }}
+          kubernetesCluster: ${{ parameters.kubernetesCluster }}
+          useClusterAdmin: true
+          command: rollout
+          arguments: restart deployments/webapp -n mokummatch

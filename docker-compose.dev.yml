@@ -1,0 +1,22 @@
+version: "3.4"
+
+services:
+  
+  app:
+    container_name: armen-ineen-dev
+    image: armen-ineen-dev
+    environment:
+      #CHOKIDAR_USEPOLLING: "true"
+      - WATCHPACK_POLLING=true
+    build:
+      dockerfile: ./docker/Dockerfile.dev
+      context: .
+      target: development
+    volumes:
+      - ./src:/app/src/:rw,cached
+    ports:
+      - 3000:3000
+    stdin_open: true
+
+  redis:
+    image: "redis:alpine"
