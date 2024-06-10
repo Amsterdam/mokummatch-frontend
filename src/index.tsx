@@ -7,7 +7,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import { BaseTheme } from "./GlobalStyles";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Pages from "./pages/Pages";
 import { CssBaseline } from "@mui/material";
 
@@ -18,12 +18,12 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <HashRouter>
         <ThemeProvider theme={BaseTheme}>
           <CssBaseline />
           <Pages />
         </ThemeProvider>
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
   </React.StrictMode>
 );
